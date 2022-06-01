@@ -14,5 +14,5 @@ a. 例程
 3. [成绩处理](./src/week1/)
 ![](./img/week1/)
 
-b. [冒泡排序法对用户输入字符串排序](./src/)
-![](./img/week1/) 
+b. [冒泡排序法对用户输入字符串排序](./src/week1/BubbleSort.java)
+![BubbleSort](./img/week1/BubbleSort.png) 
