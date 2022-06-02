@@ -11,8 +11,8 @@ a. 例程
 ![MultiTable](./img/week1/MultiTable.png)
 2. [数字游戏](./src/week1/GuessNumber.java)
 ![GuessNumber](./img/week1/GuessNumber.png)
-3. [成绩处理](./src/week1/)
-![](./img/week1/)
+3. [成绩处理](./src/week1/ScoreArray.java)
+![ScoreArray](./img/week1/ScoreArray.png)
 
 b. [冒泡排序法对用户输入字符串排序](./src/week1/BubbleSort.java)
 ![BubbleSort](./img/week1/BubbleSort.png) 
