@@ -1,0 +1,30 @@
+@startuml
+class com.supermarket.Merchandise {
+    String name
+    String id
+    int count
+    double soldPrice
+    double purchasePrice
+    +void describe()
+}
+abstract com.supermarket.chip.Chip {
+    # boolean isTested
+    # boolean[] isWorked
+    # double yield
+    + @Override void describe()
+    + abstract void runChipTest()
+}
+class com.supermarket.chip.SocChip {
+    - boolean[] isCpuWorked
+    - boolean[] isMemoryWorked
+    + @Override void runChipTest()
+}
+class com.supermarket.chip.MemoryChip {
+    + @Override void runChipTest()
+}
+
+com.supermarket.Merchandise <|-- com.supermarket.chip.Chip
+com.supermarket.chip.Chip <|-- com.supermarket.chip.SocChip
+com.supermarket.chip.Chip <|-- com.supermarket.chip.MemoryChip
+
+@enduml
