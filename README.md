@@ -1,6 +1,27 @@
 # JavaTrainingHomework
 Java训练营作业 - 陈翰霖
 
+## Week 4 :
+
+a. 例程
+
+1. 让城市与转起来，抛出异常的语法，Java异常的传递，自定义异常
+   - [supermarket](./src/week4/a1/shopping)<br>
+![shopping](img/week4/a1-1.png)
+   - [异常](./src/week4/a1/exception)
+![抛出异常](img/week4/a1-2.png)
+![异常传递](img/week4/a1-3.png)
+![自定义异常](img/week4/a1-4.png)
+
+2. collection中的List/Set，Map,Java中的File类
+   - [list](./src/week4/a2/UseListAppMain.java)![](img/week4/a2-1.png)
+   - [set](./src/week4/a2/UseSetAppMain.java)![](img/week4/a2-2.png)
+   - [map](./src/week4/a2/LearnMapAppMain.java)![](img/week4/a2-3.png)
+   - [file](./src/week4/a2/CreateDirAndFileAppMain.java)![](img/week4/a2-4.png)
+
+b. 设计一个类，能实现（创建一个可自定义文件名的文件，并从用户输入写入文件内容，读出所有已存在.txt文件内容）
+
+![FileEditor](img/week4/b.png)
 
 ## Week 3 :
 
